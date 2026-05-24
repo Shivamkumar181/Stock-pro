@@ -1,23 +1,37 @@
-# Stock-pro
-Stock market prediction and manage portfolio 
+# Stock Pro
 
-### Prerequisites
-- Node.js 14.x or higher
-- npm 6.x or higher
-- MongoDB
+Stock Pro is a stock market analysis and portfolio tracking web application designed for retail investors to monitor stocks, manage portfolios, and make informed trading decisions.
 
-### Steps
+## Features
+
+-  **Real-time Stock Prices** — Live price updates from market APIs
+-  **Portfolio Management** — Track holdings, gains/losses, and allocation
+-  **Interactive Charts** — Historical price trends with technical indicators
+-  **Stock Screener** — Filter stocks by price, volume, market cap, and more
+-  **Market News** — Latest financial news and company announcements
+-  **Watchlist** — Save and monitor favorite stocks
+-  **Responsive Design** — Works on desktop, tablet, and mobile
+
+## Tech Stack
+  Frontend 
+  Backend 
+| API | Alpha Vantage / Yahoo Finance / Polygon.io |
+| Charts | Chart.js / TradingView / Lightweight Charts |
+
+### Installation
+
 ```bash
 # Clone the repository
+git clone https://github.com/shivamkumar181/stock-pro.git
 
 # Navigate to project directory
-cd your-repo
+cd stock-pro
 
 # Install dependencies
 npm install
 
-# Set up environment variables
-cp .env.example .env
+# Create .env file and add your API keys
+REACT_APP_STOCK_API_KEY=your_api_key_here
 
-# Run the application
+# Start development server
 npm start
